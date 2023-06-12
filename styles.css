@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(140, 177, 244);
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 40px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 50%;
+    padding:28px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+}
+div label {
+    font-size: 24px;
+}
+select, [type="text"],  
+[type="email"], [type="number"],
+[type="tel"] {
+    padding: 8px;
+    width: 95%;
+    margin: 5px;
+}
+.checkbox-form {
+    margin-bottom: 20px;
+}
+.checkbox-form label {
+    font-size: 16px;
+}
+.submit-feild {
+    display: flex;
+    justify-content: center;
+}
+button {
+    border: none;
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(151, 184, 244);
+}
+textarea {
+    resize: none;
+}

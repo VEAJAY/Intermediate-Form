@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Jayland's Survey Form</h1>
+    </header>
+
+    <main>
+        <form action="" method="POST" class="main-form">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Name here..." required>
+            </div>
+            <br><br>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Email here..." required>
+            </div>
+            <br><br>
+            <div>
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" placeholder="Phone Number here...">
+            </div>
+            <br><br>
+            <div>
+                <label for="age">Age</label><br>
+                <input type="number" id="age" value="18" placeholder="Age here...">
+            </div>
+            <br>
+            <h2>How would you classify yourself?</h2>
+            <select name="classify" id="classify" required>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+                <option value="professional">Professional</option>
+            </select>
+            <br><br>
+            <h4>Mark all the skills you possess:</h4>
+            <div class="checkbox-form">
+                <label for="swim"><input type="checkbox" id="swim"> Swimming</label>
+            </div>
+            <div class="checkbox-form">
+                <label for="game"><input type="checkbox" id="game"> Gaming</label>
+            </div>
+            <div class="checkbox-form">
+                <label for="polo"><input type="checkbox" id="polo"> Polo</label>
+            </div>
+            <div class="checkbox-form">
+                <label for="golf"><input type="checkbox" id="golf"> Golf</label>
+            </div>
+            <div class="checkbox-form">
+                <label for="basketball"><input type="checkbox" id="basketball"> Basketball</label>
+            </div>
+            <div class="checkbox-form">
+                <label for="soccer"><input type="checkbox" id="soccer"> Soccer</label>
+            </div>
+
+            <h4>Please let us know if there is anything else we can improve on!</h4>
+            <textarea name="" id="" cols="90" rows="5"></textarea>
+            
+            <div class="submit-feild">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    
+    
+</body>
+</html>
